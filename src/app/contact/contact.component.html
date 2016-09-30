@@ -1,0 +1,115 @@
+<div class="container-fluid contact">
+    <div class="row">
+        <h2 class="text-center">Напишите Нам</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-6 sebm-google-map-container">
+                <sebm-google-map [latitude]="lat" [longitude]="lng" [zoom]="15">
+                 <sebm-google-map-marker [latitude]="lat" [longitude]="lng"></sebm-google-map-marker>
+                </sebm-google-map>
+            <div class="contacts">
+                <h3>Наши Контакты</h3>
+                <ul>
+                    <li><span class="glyphicon glyphicon-send"></span> 101marat@gmail.com</li>
+                    <li><span class="glyphicon glyphicon-earphone"></span> +79285543373</li>
+                    <li>Буйнакск
+                        <br>
+                        ул.Чкалова 4
+                        <br>
+                        Дагестан
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <form  id="contact-form" class="contact-form">
+                    <input type="text" class="form-control" id="name" placeholder="Name"/>
+                    <input type="email" class="form-control" id="email" placeholder="Email"/>
+                    <textarea type="text" class="form-control" id="message" placeholder="Message"></textarea>
+                <button id="sendEmail" type="submit" class="btn btn-deafult">Отправить Сообщение</button>
+            </form>
+        </div>
+        
+    </div>
+</div>
+
+        
+
+
+
+<style>
+  .contact {
+      padding-top: 60px;
+      background-color: #2F3238;
+      height: 800px;
+      color: #7F8289;
+  }
+.sebm-google-map-container {
+  height: 300px;
+  width: 850px;
+  display: overflow;
+}
+.contacts h3 {
+	color: #FFFFF;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 30px;
+	line-height: 1em;
+    text-transform: uppercase;
+}
+
+.contacts ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;	
+}
+
+.contacts ul li {
+	margin: 0 0 20px;
+	line-height: 28px;
+	padding: 0;	
+}
+
+.contact-form {
+    margin-left: 20px;
+}
+.contact-form input,
+.contact-form textarea {
+    border: none;
+    border-radius: 0;
+    background: #26292E;
+    color: #FFFFFF;
+    margin-bottom: 1px;
+
+}
+.contact-form textarea {
+    width: 100%;
+    height: 300px;
+    resize: vertical;
+}
+
+.contact-form button {
+    background: #3C3F45;
+    color: #23262C;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px, 40px;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+    margin-top: 30px;
+}
+
+.contact-form button:hover {
+    background: #DE5E60;
+    color: #FFFFFF;
+}
+.contactform {
+      margin-top: 60px;
+  }
+
+</style>
+

@@ -1,0 +1,46 @@
+.navbar {
+      margin-bottom: 0;
+      background-color: #262626;
+      z-index: 9999;
+      border-bottom: 1px;
+      border-color: white;
+      font-size: 14px !important;
+      font-weight: 300;
+      line-height: 1.42857143 !important;
+      border-radius: 0;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover {
+      color: black !important;
+      background-color: #DE5E60 !important;
+  }
+  .navbar li a:focus {
+      background-color: #DE5E60;
+  }
+  
+
+
+
+.footer {
+    background:#363636;
+    margin-top:-30px;
+    position:relative;
+    padding: 0;
+}
+
+.footer p {
+    color:#fff;
+    font-size:.9em;
+    line-height:24px;
+    font-weight:300;
+    text-align:center;
+    text-transform:uppercase;
+    margin-top: 30px;
+    letter-spacing: 3px;
+
+
+}
